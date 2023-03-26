@@ -1,12 +1,6 @@
 from pydantic import BaseModel, Field, validator
 from datetime import date, datetime
 
-def date_validator(date):
-    if not isinstance(date, datetime) and len(date) > 0:
-        raise ValueError(
-            "date is not an empty string and not a valid date")
-    return date
-
 class TaskInSchema(BaseModel):
     title: str
     description: str = Field(default=None)
@@ -32,6 +26,12 @@ class TaskOutSchema(TaskInSchema):
     #         return v
     
 
+
+class UserInSchema(BaseModel):
+    username: str
+    full_name: str = Field(default= None)
+    email: str = Field(default= None)
+    password: str
 
 class UserOutSchema(BaseModel):
     uid: int

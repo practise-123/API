@@ -34,6 +34,12 @@ def get_user(usrnm, db:session= Depends(get_db)):
     else:
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN)
 
+def get_hashed_password(pwd):
+    return PWD_CONTEXT.hash(pwd)
+
+def verify_password(password, hashed_password):
+    return PWD_CONTEXT.verify(password, hashed_password)
+
 async def get_current_user(token: Annotated[str, Depends(oauth2_bearer)]
                      , db: session = Depends(get_db)
                 ):
@@ -62,7 +68,7 @@ def authenticate_user(db, usrnm, pwd):
     if not user:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="User not found")
     else:
-        is_valid = PWD_CONTEXT.verify(pwd, user.hashed_password)
+        is_valid = verify_password(pwd, user.hashed_password)
     if is_valid:
         return user
     else:
