@@ -16,7 +16,7 @@ class TaskOutSchema(TaskInSchema):
     tid: int
     uid: int
     created_dt: date = Field(default=None)
-    updated_dt: date = Field(default=None)
+    last_updated_dt: date = Field(default=None)
     
     class Config:
         orm_mode = True
@@ -41,3 +41,11 @@ class UserOutSchema(BaseModel):
     is_active: bool
     hashed_password: str
     last_updated_dt: date
+
+class TokenSchema(BaseModel):
+    access_token: str
+    token_type: str
+
+
+class TokenDataSchema(BaseModel):
+    username: str  = Field(default=None)
