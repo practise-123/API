@@ -1,0 +1,20 @@
+2023-04-02 00:39:55,587 [DEBUG] Using selector: KqueueSelector
+2023-04-02 00:39:55,595 [INFO] API Started
+2023-04-02 00:40:18,138 [DEBUG] Calling on_field_start with no data
+2023-04-02 00:40:18,139 [DEBUG] Calling on_field_name with data[0:10]
+2023-04-02 00:40:18,139 [DEBUG] Calling on_field_data with data[11:19]
+2023-04-02 00:40:18,139 [DEBUG] Calling on_field_end with no data
+2023-04-02 00:40:18,139 [DEBUG] Calling on_field_start with no data
+2023-04-02 00:40:18,139 [DEBUG] Calling on_field_name with data[20:28]
+2023-04-02 00:40:18,140 [DEBUG] Calling on_field_data with data[29:34]
+2023-04-02 00:40:18,140 [DEBUG] Calling on_field_end with no data
+2023-04-02 00:40:18,140 [DEBUG] Calling on_field_start with no data
+2023-04-02 00:40:18,140 [DEBUG] Calling on_field_name with data[35:43]
+2023-04-02 00:40:18,140 [DEBUG] Calling on_field_data with data[44:49]
+2023-04-02 00:40:18,140 [DEBUG] Calling on_field_end with no data
+2023-04-02 00:40:18,140 [DEBUG] Calling on_end with no data
+2023-04-02 00:40:18,156 [INFO] Authenticating user : 60875
+2023-04-02 00:40:18,204 [DEBUG] detected 'bcrypt' backend, version '4.0.1'
+2023-04-02 00:40:18,204 [DEBUG] 'bcrypt' backend lacks $2$ support, enabling workaround
+2023-04-02 00:40:23,780 [INFO] Validating user
+2023-04-02 00:40:23,783 [INFO] Token Validated

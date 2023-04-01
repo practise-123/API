@@ -1,0 +1,200 @@
+[
+    {
+        "teachers_id": "T6193",
+        "full_name": "Cory Kuhlman",
+        "contact_no": "6839800336",
+        "gender": "M",
+        "dob": "1985-07-09",
+        "city": "Mahāban",
+        "street_name": "90297 Rath Gateway",
+        "primary_subject": "Mathematics",
+        "is_class_teacher": false
+    },
+    {
+        "teachers_id": "T5148",
+        "full_name": "Aaron Herman",
+        "contact_no": "5747745083",
+        "gender": "M",
+        "dob": "1987-01-16",
+        "city": "Sonegaon",
+        "street_name": "42054 Eulalia Extensions",
+        "primary_subject": "Science",
+        "is_class_teacher": false
+    },
+    {
+        "teachers_id": "T3621",
+        "full_name": "Melvin VonRueden",
+        "contact_no": "3000048657",
+        "gender": "M",
+        "dob": "1990-08-18",
+        "city": "Bathinda",
+        "street_name": "85011 Bernhard Shore",
+        "primary_subject": "Science",
+        "is_class_teacher": false
+    },
+    {
+        "teachers_id": "T3676",
+        "full_name": "Myra Denesik",
+        "contact_no": "6928372052",
+        "gender": "F",
+        "dob": "1993-10-21",
+        "city": "Mandapeta",
+        "street_name": "4050 Dorcas Plaza",
+        "primary_subject": "Social Studies",
+        "is_class_teacher": true
+    },
+    {
+        "teachers_id": "T7351",
+        "full_name": "Orlando Shields",
+        "contact_no": "6487644719",
+        "gender": "M",
+        "dob": "1992-05-19",
+        "city": "Bisauli",
+        "street_name": "65845 Schmeler Squares",
+        "primary_subject": "Science",
+        "is_class_teacher": false
+    },
+    {
+        "teachers_id": "T5135",
+        "full_name": "Frederick Ledner",
+        "contact_no": "1048912441",
+        "gender": "M",
+        "dob": "1994-03-10",
+        "city": "Nāgireddipalli",
+        "street_name": "53855 Senger Path",
+        "primary_subject": "Social Studies",
+        "is_class_teacher": true
+    },
+    {
+        "teachers_id": "T9626",
+        "full_name": "Willis Casper",
+        "contact_no": "1628191042",
+        "gender": "M",
+        "dob": "1985-08-14",
+        "city": "Dumka",
+        "street_name": "6388 Homenick Trail",
+        "primary_subject": "Telugu",
+        "is_class_teacher": false
+    },
+    {
+        "teachers_id": "T0737",
+        "full_name": "Earnest Bahringer",
+        "contact_no": "8622990844",
+        "gender": "M",
+        "dob": "1990-12-02",
+        "city": "Māndvi",
+        "street_name": "89576 Paucek Stravenue",
+        "primary_subject": "Hindi",
+        "is_class_teacher": false
+    },
+    {
+        "teachers_id": "T7815",
+        "full_name": "Audrey Swaniawski",
+        "contact_no": "9041984102",
+        "gender": "F",
+        "dob": "1993-06-25",
+        "city": "Kharsāwān",
+        "street_name": "89907 Gusikowski Meadow",
+        "primary_subject": "Science",
+        "is_class_teacher": false
+    },
+    {
+        "teachers_id": "T2803",
+        "full_name": "Ginger Strosin",
+        "contact_no": "8772764445",
+        "gender": "F",
+        "dob": "1987-10-16",
+        "city": "Phirangipuram",
+        "street_name": "46933 Virginia Forks",
+        "primary_subject": "English",
+        "is_class_teacher": false
+    },
+    {
+        "teachers_id": "T9838",
+        "full_name": "Mandy Douglas",
+        "contact_no": "7860834530",
+        "gender": "F",
+        "dob": "1985-03-22",
+        "city": "Konnūr",
+        "street_name": "90400 Eliezer Trace",
+        "primary_subject": "English",
+        "is_class_teacher": false
+    },
+    {
+        "teachers_id": "T5160",
+        "full_name": "Joy O'Connell",
+        "contact_no": "3489649374",
+        "gender": "F",
+        "dob": "1993-01-12",
+        "city": "Nawābganj",
+        "street_name": "0450 Weimann Lake",
+        "primary_subject": "Science",
+        "is_class_teacher": true
+    },
+    {
+        "teachers_id": "T6276",
+        "full_name": "Timothy Pouros",
+        "contact_no": "0031683669",
+        "gender": "M",
+        "dob": "1993-08-12",
+        "city": "Hātod",
+        "street_name": "239 Friesen Brooks",
+        "primary_subject": "Social Studies",
+        "is_class_teacher": true
+    },
+    {
+        "teachers_id": "T7921",
+        "full_name": "Mindy Sauer",
+        "contact_no": "6716322846",
+        "gender": "F",
+        "dob": "1985-05-19",
+        "city": "Bīghāpur Khurd",
+        "street_name": "56609 Kihn Street",
+        "primary_subject": "Social Studies",
+        "is_class_teacher": false
+    },
+    {
+        "teachers_id": "T7235",
+        "full_name": "Pam Weimann",
+        "contact_no": "9208401139",
+        "gender": "F",
+        "dob": "1992-05-11",
+        "city": "Kaimori",
+        "street_name": "15730 Hannah Village",
+        "primary_subject": "Hindi",
+        "is_class_teacher": false
+    },
+    {
+        "teachers_id": "T0095",
+        "full_name": "Marjorie Predovic",
+        "contact_no": "0891075231",
+        "gender": "F",
+        "dob": "1992-03-09",
+        "city": "Erode",
+        "street_name": "0337 Swift Forks",
+        "primary_subject": "Social Studies",
+        "is_class_teacher": false
+    },
+    {
+        "teachers_id": "T4040",
+        "full_name": "Marco Carroll",
+        "contact_no": "2576405065",
+        "gender": "M",
+        "dob": "1989-12-13",
+        "city": "Andol",
+        "street_name": "05785 Jacobs Crossroad",
+        "primary_subject": "Telugu",
+        "is_class_teacher": true
+    },
+    {
+        "teachers_id": "T2497",
+        "full_name": "George Auer",
+        "contact_no": "4061781477",
+        "gender": "M",
+        "dob": "1990-03-26",
+        "city": "Lātehār",
+        "street_name": "4183 Hans Inlet",
+        "primary_subject": "Hindi",
+        "is_class_teacher": true
+    }
+]
